@@ -13,8 +13,7 @@ modes for a better viewing experience.
 
 ## Screenshot
 ![landing page](./assets/img/converter.png)
-*This is my temperature converter*
-
+*Temperature converter*
 
 ## Technologies Used
 
