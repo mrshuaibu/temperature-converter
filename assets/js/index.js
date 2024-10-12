@@ -7,7 +7,19 @@ const output = document.querySelector('.output p');
 const toC = document.querySelector('.toC');
 const toF = document.querySelector('.toF');
 const change = document.querySelector('#change');
-const main = document.querySelector('main');
+const main = document.querySelector('main')
+const menuIcon = document.querySelector('.menu-icon');
+const navList = document.querySelector('.nav-list');
+
+menuIcon.addEventListener('click', function() {
+    menuIcon.classList.toggle('active');
+    navList.classList.toggle('active');
+});
+
+document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', function() {
+    menuIcon.classList.remove('active');
+    navList.classList.remove('active');
+}));
 
 change.addEventListener('click', function() {
     main.classList.toggle('dark-mode');
