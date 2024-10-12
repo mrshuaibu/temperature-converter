@@ -106,6 +106,7 @@ main.dark-mode {
         gap: 0;
         flex-direction: column;
         background-color:  rgb(0 0 0 / 0.2);
+        backdrop-filter: 15px;
         width: 100%;
         text-align: center;
         transition: left 0.3s ease-in-out;
